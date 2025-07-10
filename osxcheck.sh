@@ -100,6 +100,7 @@ privilege_escalation|sudo.*COMMAND.*\\/tmp|60|HIGH|Security|Suspicious sudo usag
 log_deletion|log.*deleted|removed.*\\.log|50|HIGH|Security|Log deletion detected|Investigate log tampering
 unknown_mdm|com\\.(?!apple|jamf|vmware|microsoft|mosyle)|50|HIGH|Profile|Unknown MDM profile|Verify MDM profile legitimacy
 suspicious_profile_payload|(PayloadType.*com\\.apple\\.security)|60|HIGH|Profile|Security-modifying configuration profile|Review profile payloads carefully
+invalid_kext_signature|Signature: INVALID|80|HIGH|Kernel|Kernel extension has invalid signature|Investigate and remove untrusted kexts
 "
 
 # Custom IOCs storage
@@ -289,21 +290,25 @@ check_dependencies() {
 
 # --- System Capability Detection ---
 detect_capabilities() {
-    # Check for T2 chip
-    if system_profiler SPiBridgeDataType 2>/dev/null | grep -q "Apple T2"; then
-        echo "T2_CHIP=true" >> "$OUTPUT_DIR/.capabilities"
+    # Check for T2 chip if system_profiler is available
+    if command -v system_profiler >/dev/null 2>&1; then
+        if system_profiler SPiBridgeDataType 2>/dev/null | grep -q "Apple T2"; then
+            echo "T2_CHIP=true" >> "$OUTPUT_DIR/.capabilities"
+        fi
     fi
-    
+
     # Check for Secure Enclave
     if $IS_APPLE_SILICON || ([[ -f "$OUTPUT_DIR/.capabilities" ]] && grep -q "T2_CHIP=true" "$OUTPUT_DIR/.capabilities"); then
         echo "SECURE_ENCLAVE=true" >> "$OUTPUT_DIR/.capabilities"
     fi
-    
-    # Check macOS version
-    local os_version
-    os_version=$(sw_vers -productVersion)
+
+    # Check macOS version if sw_vers exists
+    local os_version="unknown"
+    if command -v sw_vers >/dev/null 2>&1; then
+        os_version=$(sw_vers -productVersion)
+    fi
     echo "OS_VERSION=$os_version" >> "$OUTPUT_DIR/.capabilities"
-    
+
     # Check for admin privileges
     if groups | grep -q admin; then
         echo "IS_ADMIN=true" >> "$OUTPUT_DIR/.capabilities"
@@ -533,9 +538,9 @@ analyze_file() {
 # Count total checks for progress tracking
 count_total_checks() {
     case "$ASSESSMENT_MODE" in
-        "quick") TOTAL_CHECKS=15 ;;
-        "standard") TOTAL_CHECKS=50 ;;
-        "full") TOTAL_CHECKS=100 ;;
+        "quick") TOTAL_CHECKS=16 ;;
+        "standard") TOTAL_CHECKS=51 ;;
+        "full") TOTAL_CHECKS=101 ;;
     esac
 }
 
@@ -577,8 +582,53 @@ assess_system_info() {
     analyze_file "$OUTPUT_DIR/system/kernel_extensions.txt" "unsigned_kext"
     analyze_file "$OUTPUT_DIR/system/kernel_extensions.txt" "suspicious_kext"
     analyze_file "$OUTPUT_DIR/system/xprotect_version.txt" "xprotect_outdated"
-    
+
     log "INFO" "System Information assessment completed"
+}
+
+# Check kernel extension signatures
+assess_kernel_signing() {
+    log "INFO" "Checking kernel extension signatures..."
+
+    local output_file="$OUTPUT_DIR/kernel/kext_signatures.txt"
+    : > "$output_file"
+
+    local kext_dir="$OUTPUT_DIR/signatures/kexts"
+    mkdir -p "$kext_dir"
+
+    local loaded_kexts installed_kexts kext_list
+
+    if command -v kmutil &>/dev/null; then
+        loaded_kexts=$(kmutil showloaded --json 2>/dev/null | jq -r '.[].path')
+    else
+        loaded_kexts=$(kextstat | awk '/^ *[0-9]+/ {print $NF}' | grep '^/' | sort -u)
+    fi
+
+    installed_kexts=$(find /Library/Extensions /System/Library/Extensions -maxdepth 1 -name '*.kext' 2>/dev/null)
+
+    kext_list=$(printf '%s\n%s' "$loaded_kexts" "$installed_kexts" | sort -u)
+
+    for kext in $kext_list; do
+        if [[ -d "$kext" ]]; then
+            local base
+            base=$(basename "$kext")
+            local detail_file="$kext_dir/${base}.txt"
+            {
+                echo "Kext: $kext"
+                codesign -dvvv "$kext" 2>&1 | grep -E "Authority|TeamIdentifier" || echo "No signature"
+                if codesign --verify --deep --strict "$kext" &>/dev/null; then
+                    echo "Signature: VALID"
+                else
+                    echo "Signature: INVALID"
+                fi
+                echo ""
+            } > "$detail_file"
+            cat "$detail_file" >> "$output_file"
+        fi
+    done
+
+    analyze_file "$output_file" "invalid_kext_signature"
+    log "INFO" "Kernel extension signature check completed"
 }
 
 assess_network() {
@@ -1573,8 +1623,8 @@ main() {
     readonly JSONL_REPORT_FILE="$OUTPUT_DIR/findings.jsonl"
     
     # Create directory structure
-    mkdir -p "$OUTPUT_DIR"/{system,network,security,persistence,apps,processes,browser,filesystem,logs}
-    mkdir -p "$OUTPUT_DIR"/{apps/details,persistence/plists,signatures/apps}
+    mkdir -p "$OUTPUT_DIR"/{system,network,security,persistence,apps,processes,browser,filesystem,logs,kernel}
+    mkdir -p "$OUTPUT_DIR"/{apps/details,persistence/plists,signatures/apps,signatures/kexts}
     
     # Initialize
     init_logging
@@ -1629,10 +1679,12 @@ main() {
     case "$ASSESSMENT_MODE" in
         "quick")
             assess_system_info
+            assess_kernel_signing
             assess_applications
             ;;
         "standard")
             assess_system_info
+            assess_kernel_signing
             assess_network
             assess_security
             assess_persistence
@@ -1642,6 +1694,7 @@ main() {
             ;;
         "full")
             assess_system_info
+            assess_kernel_signing
             assess_network
             assess_security
             assess_persistence
