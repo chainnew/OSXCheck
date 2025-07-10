@@ -1,0 +1,12 @@
+    | |   |   |   "ISPFirmwareVersion" = "3.606"
+    | |   |   |   |   | |   "FirmwareVersion" = "wl0: Mar 22 2025 02:17:00 version 23.40.30.0.41.51.180 FWID 01-989cd4a9"
+    | |   |       |   "FirmwareVersion" = "AppleMTPFirmwareMac-4340.1~678"
+    | |   |       |   "FirmwareVersion" = "mac16jaop:RELEASE:AppleSPUFirmwareBuilder-642.120.3~2709"
+    | |   |       |   "FirmwareVersion" = "not set"
+    | |   |       |   "FirmwareVersion" = "not set"
+    | |   |           |       "GasGaugeFirmwareVersion" = 2
+    | |   |   |   |   |     "FirmwareVersion" = "003.0063"
+    | |   |   |   |   |     "FirmwareVersion" = "003.0063"
+    | |   |       |   |     "FirmwareVersion" = "003.0063"
+    | |   |       "FirmwareVersion" = "0x8900f80e"
+    | |   |       |   "FirmwareVersion" = "not set"

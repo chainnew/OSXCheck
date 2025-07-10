@@ -1,0 +1,14 @@
+total 160216
+drwxr-xr-x   13 root  wheel       416 May  4 13:39 .
+drwxr-xr-x  156 root  wheel      4992 May  4 13:39 ..
+-rwxr-xr-x    1 root  wheel  18347928 May  4 13:39 kernel
+-rwxr-xr-x    1 root  wheel  16195624 May  4 13:39 kernel.release.t6000
+-rwxr-xr-x    1 root  wheel  16102192 May  4 13:39 kernel.release.t6020
+-rwxr-xr-x    1 root  wheel  16048088 May  4 13:39 kernel.release.t6030
+-rwxr-xr-x    1 root  wheel  16151568 May  4 13:39 kernel.release.t6031
+-rwxr-xr-x    1 root  wheel  15900736 May  4 13:39 kernel.release.t6041
+-rwxr-xr-x    1 root  wheel  16142320 May  4 13:39 kernel.release.t8103
+-rwxr-xr-x    1 root  wheel  16078368 May  4 13:39 kernel.release.t8112
+-rwxr-xr-x    1 root  wheel  16048088 May  4 13:39 kernel.release.t8122
+-rwxr-xr-x    1 root  wheel  15865000 May  4 13:39 kernel.release.t8132
+-rwxr-xr-x    1 root  wheel  15208544 May  4 13:39 kernel.release.vmapple

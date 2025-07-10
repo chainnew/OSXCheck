@@ -1,0 +1,7 @@
+      Model Name: MacBook Pro
+      Model Identifier: Mac16,8
+      Chip: Apple M4 Pro
+      Memory: 24 GB
+      System Firmware Version: 11881.121.1
+      Serial Number (system): JMT46T7P07
+      Hardware UUID: 62106123-64BE-5B22-9CAE-9C659671612A

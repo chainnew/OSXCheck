@@ -1,0 +1,14 @@
+Filesystem                                       Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1                                  460Gi    10Gi   381Gi     3%    426k  4.0G    0%   /
+devfs                                           210Ki   210Ki     0Bi   100%     726     0  100%   /dev
+/dev/disk3s6                                    460Gi    20Ki   381Gi     1%       0  4.0G    0%   /System/Volumes/VM
+/dev/disk3s2                                    460Gi   5.8Gi   381Gi     2%     781  4.0G    0%   /System/Volumes/Preboot
+/dev/disk3s4                                    460Gi   288Ki   381Gi     1%      18  4.0G    0%   /System/Volumes/Update
+/dev/disk1s2                                    500Mi   6.0Mi   480Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1                                    500Mi   5.4Mi   480Mi     2%      34  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3                                    500Mi   3.8Mi   480Mi     1%      98  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5                                    460Gi    62Gi   381Gi    14%    197k  4.0G    0%   /System/Volumes/Data
+map auto_home                                     0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk5s1                                    1.8Ti   888Ki   1.8Ti     1%     107   20G    0%   /Volumes/Moov2
+/Users/matto/Downloads/Visual Studio Code.app   460Gi    47Gi   396Gi    11%    156k  4.2G    0%   /private/var/folders/v4/8s892y4s5rn4rmlz2b9zx_tm0000gn/T/AppTranslocation/ABE8068C-25B0-4499-96E9-85ED590FE607
+/dev/disk7s1                                    2.0Gi   1.5Gi   554Mi    73%     24k  5.7M    0%   /Volumes/LM Studio 0.3.18-arm64

@@ -1,0 +1,120 @@
+[2025-07-11 01:28:53] Initiated. Dir: ./scorched_assessment_20250711_012852 (CPU: 26
+0%, MEM: 4754.)
+[2025-07-11 01:28:53] Running System Section... (CPU: 28
+0%, MEM: 4263.)
+[2025-07-11 01:28:54] Progress starting for 30 items... (CPU: 25
+0%, MEM: 4508.)
+[2025-07-11 01:28:56] Running: System Profiler Report – system_profiler SPSoftwareDataType 2>/dev/null || echo "Command failed" (CPU: 78
+0%, MEM: 4878.)
+[2025-07-11 01:28:56] Running: Installed Updates – softwareupdate --history 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 4516.)
+[2025-07-11 01:28:56] Running: Kernel Release Date – ls -la /System/Library/Kernels 2>/dev/null || echo "Not available" (CPU: 79
+0%, MEM: 5625.)
+[2025-07-11 01:28:56] Running: System Version – sw_vers (CPU: 79
+0%, MEM: 4715.)
+[2025-07-11 01:28:56] Running: EFI Version – ioreg -l 2>/dev/null | grep -i FirmwareVersion || echo "Not available" (CPU: 79
+0%, MEM: 5136.)
+[2025-07-11 01:28:56] Running: Kernel Version – uname -a (CPU: 79
+0%, MEM: 5709.)
+[2025-07-11 01:28:56] Running: Boot ROM Version – system_profiler SPHardwareDataType 2>/dev/null | grep -i "Boot ROM Version\|System Firmware\|Model Name\|Model Identifier\|Chip\|Memory\|Serial\|Hardware UUID" (CPU: 79
+0%, MEM: 6081.)
+[2025-07-11 01:28:56] Running: Hardware Information – system_profiler SPHardwareDataType 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 6041.)
+[2025-07-11 01:28:57] ✓ Success: ./scorched_assessment_20250711_012852/system/kernel_date.txt (CPU: 82
+0%, MEM: 5251.)
+[2025-07-11 01:28:57] ✓ Success: ./scorched_assessment_20250711_012852/system/software_info.txt (CPU: 81
+0%, MEM: 5059.)
+[2025-07-11 01:28:57] ✓ Success: ./scorched_assessment_20250711_012852/system/update_history.txt (CPU: 80
+0%, MEM: 5212.)
+[2025-07-11 01:28:57] ✓ Success: ./scorched_assessment_20250711_012852/system/sw_vers.txt (CPU: 80
+0%, MEM: 5076.)
+[2025-07-11 01:28:58] ✓ Success: ./scorched_assessment_20250711_012852/system/kernel_version.txt (CPU: 79
+0%, MEM: 5436.)
+[2025-07-11 01:28:58] ✓ Success: ./scorched_assessment_20250711_012852/system/hardware_info.txt (CPU: 76
+0%, MEM: 6170.)
+[2025-07-11 01:28:58] ✓ Success: ./scorched_assessment_20250711_012852/system/bootrom_version.txt (CPU: 74
+0%, MEM: 5629.)
+[2025-07-11 01:28:58] ✓ Success: ./scorched_assessment_20250711_012852/system/efi_version.txt (CPU: 61
+0%, MEM: 7118.)
+[2025-07-11 01:28:59] Running: Secure Boot Status – system_profiler SPiBridgeDataType 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 5321.)
+[2025-07-11 01:28:59] Running: Installed Software – system_profiler SPApplicationsDataType 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 4107.)
+[2025-07-11 01:28:59] Running: Boot Arguments – nvram boot-args 2>/dev/null || echo "Command failed" (CPU: 80
+0%, MEM: 4456.)
+[2025-07-11 01:28:59] Running: Missing Kernel Extension Dependencies – kextfind -dependencies-missing 2>/dev/null || echo "Command not available" (CPU: 79
+0%, MEM: 4071.)
+[2025-07-11 01:28:59] Running: Loaded Kernel Extensions – kextfind -loaded 2>/dev/null || echo "Command not available" (CPU: 79
+0%, MEM: 5145.)
+[2025-07-11 01:28:59] Running: Kernel Extensions – kextstat 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 5107.)
+[2025-07-11 01:28:59] Running: Invalid Kernel Extensions – kextfind -invalid 2>/dev/null || echo "Command not available" (CPU: 79
+0%, MEM: 4844.)
+[2025-07-11 01:28:59] Running: NVRAM Variables – nvram -p 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 4676.)
+[2025-07-11 01:29:01] ✓ Success: ./scorched_assessment_20250711_012852/system/boot_args.txt (CPU: 76
+0%, MEM: 5141.)
+[2025-07-11 01:29:01] ✓ Success: ./scorched_assessment_20250711_012852/system/secure_boot_status.txt (CPU: 77
+0%, MEM: 5166.)
+[2025-07-11 01:29:01] ✓ Success: ./scorched_assessment_20250711_012852/system/nvram_variables.txt (CPU: 78
+0%, MEM: 4832.)
+[2025-07-11 01:29:01] ✓ Success: ./scorched_assessment_20250711_012852/system/kextstat.txt (CPU: 78
+0%, MEM: 3867.)
+[2025-07-11 01:29:01] ✗ Failure: Loaded Kernel Extensions (CPU: 72
+0%, MEM: 6446.)
+[2025-07-11 01:29:02] ✓ Success: ./scorched_assessment_20250711_012852/system/missing_kext_dependencies.txt (CPU: 64
+0%, MEM: 5602.)
+[2025-07-11 01:29:02] ✓ Success: ./scorched_assessment_20250711_012852/system/invalid_kexts.txt (CPU: 64
+0%, MEM: 5408.)
+[2025-07-11 01:29:02] ✓ Success: ./scorched_assessment_20250711_012852/system/installed_software.txt (CPU: 41
+0%, MEM: 5839.)
+[2025-07-11 01:29:03] Running: System Uptime – uptime 2>/dev/null || echo "Command failed" (CPU: 78
+0%, MEM: 7730.)
+[2025-07-11 01:29:03] Running: Disk Utility Information – diskutil list 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 5578.)
+[2025-07-11 01:29:03] Running: Disk Usage – df -h 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 4366.)
+[2025-07-11 01:29:03] Running: Kernel Extensions Without Paths – kextfind -no-paths 2>/dev/null || echo "Command not available" (CPU: 79
+0%, MEM: 4021.)
+[2025-07-11 01:29:03] Running: Disk Utility Full Information – diskutil info -all 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 5503.)
+[2025-07-11 01:29:03] Running: Gatekeeper Status – spctl --status 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 5909.)
+[2025-07-11 01:29:03] Running: System Integrity Status – csrutil status 2>/dev/null || echo "Command failed" (CPU: 79
+0%, MEM: 4719.)
+[2025-07-11 01:29:03] Running: XProtect Version – system_profiler SPInstallHistoryDataType 2>/dev/null | grep -A 10 XProtect || echo "Not available" (CPU: 79
+0%, MEM: 4735.)
+[2025-07-11 01:29:04] ✓ Success: ./scorched_assessment_20250711_012852/system/uptime.txt (CPU: 80
+0%, MEM: 5060.)
+[2025-07-11 01:29:04] ✓ Success: ./scorched_assessment_20250711_012852/system/disk_usage.txt (CPU: 80
+0%, MEM: 4344.)
+[2025-07-11 01:29:04] ✓ Success: ./scorched_assessment_20250711_012852/system/diskutil_list.txt (CPU: 80
+0%, MEM: 5907.)
+[2025-07-11 01:29:05] ✓ Success: ./scorched_assessment_20250711_012852/system/gatekeeper_status.txt (CPU: 79
+0%, MEM: 6525.)
+[2025-07-11 01:29:05] ✓ Success: ./scorched_assessment_20250711_012852/system/kexts_no_paths.txt (CPU: 77
+0%, MEM: 5597.)
+[2025-07-11 01:29:05] ✓ Success: ./scorched_assessment_20250711_012852/system/sip_status.txt (CPU: 77
+0%, MEM: 5823.)
+[2025-07-11 01:29:05] ✓ Success: ./scorched_assessment_20250711_012852/system/xprotect_version.txt (CPU: 76
+0%, MEM: 6879.)
+[2025-07-11 01:29:07] ✓ Success: ./scorched_assessment_20250711_012852/system/diskutil_info.txt (CPU: 29
+0%, MEM: 5872.)
+[2025-07-11 01:29:08] Running: Mount Points – mount 2>/dev/null || echo "Command failed" (CPU: 69
+0%, MEM: 5132.)
+[2025-07-11 01:29:08] Running: FDISK Information – fdisk -d /dev/disk0 2>&1 || echo "Command failed or requires sudo" (CPU: 69
+0%, MEM: 4653.)
+[2025-07-11 01:29:08] Running: Partition Information – gpt -r show /dev/disk0 2>/dev/null || echo "Command failed or not available" (CPU: 69
+0%, MEM: 5765.)
+[2025-07-11 01:29:08] Running: Disk Usage by Directory – du -h -d 3 / 2>/dev/null | sort -hr | head -50 || echo "Command failed" (CPU: 68
+0%, MEM: 5206.)
+[2025-07-11 01:29:08] Running: SMART Status – diskutil info disk0 2>/dev/null | grep SMART || echo "Command failed" (CPU: 68
+0%, MEM: 5515.)
+[2025-07-11 01:29:08] Running: APFS Container Details – diskutil apfs list 2>/dev/null || echo "Command failed" (CPU: 68
+0%, MEM: 5427.)
+[2025-07-11 01:29:09] ✓ Success: ./scorched_assessment_20250711_012852/system/mount_points.txt (CPU: 48
+0%, MEM: 4374.)
+[2025-07-11 01:29:09] ✓ Success: ./scorched_assessment_20250711_012852/system/apfs_containers.txt (CPU: 37
+0%, MEM: 5092.)
+[2025-07-11 01:29:17] ✓ Success: ./scorched_assessment_20250711_012852/system/disk_usage_by_dir.txt (CPU: 23
+0%, MEM: 4796.)

@@ -1,0 +1,50 @@
+106G	/
+ 69G	/System
+ 59G	/System/Volumes
+ 37G	/System/Volumes/Data
+ 22G	/System/Volumes/Preboot
+ 20G	/Applications
+ 16G	/Applications/Install macOS Tahoe Beta.app/Contents
+ 16G	/Applications/Install macOS Tahoe Beta.app
+ 11G	/Users/matto
+ 11G	/Users
+9.5G	/System/Library
+8.2G	/Users/matto/.lmstudio
+3.1G	/System/Library/PrivateFrameworks
+2.9G	/private/var
+2.9G	/private
+1.8G	/Applications/Logic Pro.app/Contents
+1.8G	/Applications/Logic Pro.app
+1.6G	/Users/matto/Library
+1.5G	/Users/matto/Downloads
+1.4G	/Volumes/LM Studio 0.3.18-arm64/LM Studio.app
+1.4G	/Volumes/LM Studio 0.3.18-arm64
+1.4G	/Volumes
+1.0G	/private/var/vm
+1.0G	/private/var/folders
+826M	/System/Library/AssetsV2
+818M	/private/var/db
+794M	/System/Library/LinguisticData
+775M	/Applications/LM Studio.app/Contents
+775M	/Applications/LM Studio.app
+731M	/usr
+715M	/System/Library/Templates
+654M	/System/Library/Desktop Pictures
+638M	/System/Library/Frameworks
+615M	/Applications/Google Chrome.app/Contents
+615M	/Applications/Google Chrome.app
+576M	/System/Applications
+545M	/System/Library/Fonts
+517M	/System/Library/CoreServices
+461M	/Applications/Claude.app/Contents
+461M	/Applications/Claude.app
+388M	/Applications/Telegram.app/Contents
+388M	/Applications/Telegram.app
+340M	/System/Library/Extensions
+277M	/System/iOSSupport/System
+277M	/System/iOSSupport
+235M	/usr/share
+225M	/System/Library/Assistant
+215M	/System/Library/ExtensionKit
+206M	/usr/libexec
+193M	/System/Library/KernelCollections
