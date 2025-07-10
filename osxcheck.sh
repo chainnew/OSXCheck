@@ -290,21 +290,25 @@ check_dependencies() {
 
 # --- System Capability Detection ---
 detect_capabilities() {
-    # Check for T2 chip
-    if system_profiler SPiBridgeDataType 2>/dev/null | grep -q "Apple T2"; then
-        echo "T2_CHIP=true" >> "$OUTPUT_DIR/.capabilities"
+    # Check for T2 chip if system_profiler is available
+    if command -v system_profiler >/dev/null 2>&1; then
+        if system_profiler SPiBridgeDataType 2>/dev/null | grep -q "Apple T2"; then
+            echo "T2_CHIP=true" >> "$OUTPUT_DIR/.capabilities"
+        fi
     fi
-    
+
     # Check for Secure Enclave
     if $IS_APPLE_SILICON || ([[ -f "$OUTPUT_DIR/.capabilities" ]] && grep -q "T2_CHIP=true" "$OUTPUT_DIR/.capabilities"); then
         echo "SECURE_ENCLAVE=true" >> "$OUTPUT_DIR/.capabilities"
     fi
-    
-    # Check macOS version
-    local os_version
-    os_version=$(sw_vers -productVersion)
+
+    # Check macOS version if sw_vers exists
+    local os_version="unknown"
+    if command -v sw_vers >/dev/null 2>&1; then
+        os_version=$(sw_vers -productVersion)
+    fi
     echo "OS_VERSION=$os_version" >> "$OUTPUT_DIR/.capabilities"
-    
+
     # Check for admin privileges
     if groups | grep -q admin; then
         echo "IS_ADMIN=true" >> "$OUTPUT_DIR/.capabilities"
