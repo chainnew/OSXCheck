@@ -1,0 +1,510 @@
+Active connections:
+
+Node           Refs Module    Destination Socket Connected Shared Active Requests Credentials Timeout 
+-------------- ---- --------- ----------- ------ --------- ------ --------------- ----------- ------- 
+/Contacts      2    search                       X                0                           0       
+/Contacts      2    search                       X                0                           0       
+/Contacts      2    search                       X                0                           0       
+/Contacts      2    search                       X                0                           0       
+/Contacts      2    search                       X                0                           0       
+/Local/Default 50   PlistFile                    X         X      0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+/Search        2    search                       X                0                           0       
+
+Open nodes:
+
+PID      Node ID                              Refs Nodename       Options Legacy Internal Use Session ID 
+-------- ------------------------------------ ---- -------------- ------- ------ ------------ ---------- 
+387 -- keybagd -- total (1)
+         691D4181-FD02-460E-A914-C5CD4B02C84B 1    /Local/Default                             <Default>  
+408 -- apsd -- total (3)
+         AD87862F-17AC-413D-83DA-F27E4424E0A5 1    /Local/Default                X            <Default>  
+         D9246765-55D2-462C-86E6-AAE55FB72DB4 1    /Search                                    <Default>  
+         F3377D12-21A3-479F-B4A8-62B2A703D5BF 1    /Local/Default                             <Default>  
+414 -- locationd -- total (1)
+         CA3F660A-90BF-407B-8858-39F5C3BF7318 1    /Local/Default                X            <Default>  
+432 -- corebrightnessd -- total (3)
+         4E643489-199A-4149-B34A-F908E41B6AE6 1    /Local/Default                             <Default>  
+         7F42DED8-F37D-4E0F-BB6A-358E9BA4E8FB 1    /Local/Default                X            <Default>  
+         8BA76675-82FA-4F1F-90C3-ACE02B3E9CB3 1    /Search                                    <Default>  
+440 -- loginwindow -- total (2)
+         2BCECBE2-839A-4347-8FC5-AD3E233E5619 1    /Local/Default                             <Default>  
+         9D2CC026-04B3-4464-A420-906F68345859 1    /Local/Default                X            <Default>  
+476 -- systemstatusd -- total (1)
+         B86AEDB1-DC50-45C3-93B0-EE2492B79998 1    /Local/Default                X            <Default>  
+721 -- ControlCenter -- total (1)
+         977D1619-3635-4091-802F-F173EF05D579 1    /Local/Default                             <Default>  
+752 -- automountd -- total (1)
+         01B13BC1-0BCE-4726-ACBC-AE5CF61511E4 1    /Local/Default                X            <Default>  
+830 -- sharingd -- total (3)
+         19265E0A-59E3-4655-B241-BCE4FDDA208F 1    /Search                                    <Default>  
+         83E2D25F-80F4-4C4D-B3D5-181768116747 1    /Local/Default                             <Default>  
+         EA3117BA-9783-42F1-964E-2767F0624728 1    /Local/Default                X            <Default>  
+839 -- appleaccountd -- total (3)
+         36EA0638-1674-4C20-9C58-D91DEC4401D4 1    /Search                                    <Default>  
+         45220E1B-D3B2-4E67-96F7-DC351C28E91D 1    /Local/Default                             <Default>  
+         A0A8B78D-5F14-4D13-8E89-D42A633D9DAA 1    /Local/Default                X            <Default>  
+856 -- akd -- total (3)
+         3F7011A8-36C2-4E0E-B136-0C9FD23B33E2 1    /Search                                    <Default>  
+         631CA4DA-66A8-4F2B-BE60-19D729A242DE 1    /Local/Default                             <Default>  
+         AA0C4E2E-7B00-41CE-B4D0-E788AABA31F7 1    /Local/Default                X            <Default>  
+1024 -- TextInputMenuAgent -- total (3)
+         1EEB9C69-AF0D-43D7-BBFC-BA7D734B1900 1    /Local/Default                             <Default>  
+         9C2AC6EA-B958-406F-AF6D-35436FC8A8B2 1    /Local/Default                X            <Default>  
+         FE26E1FD-EB23-431A-A319-667A21957619 1    /Search                                    <Default>  
+1100 -- Brave Browser -- total (2)
+         16270544-BBEE-419F-90BA-13312FBB17DC 1    /Local/Default                X            <Default>  
+         78DC8155-3BF2-4DB1-B170-70C19D9DB201 1    /Contacts                                  <Default>  
+9615 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         B5DA0BB8-06B0-4626-B508-67C28A18255D 1    /Local/Default                             <Default>  
+11016 -- SecurityPrivacyExtension -- total (1)
+         DCD04EC6-5AF5-44E6-8F0E-B731D15E3274 1    /Local/Default                             <Default>  
+11116 -- Touch ID & Password -- total (3)
+         2716B6B9-66B9-4976-98A6-16583BACB899 1    /Local/Default                X            <Default>  
+         76682825-D662-49F0-BD46-44DF901746DB 1    /Local/Default                             <Default>  
+         D345EE52-684F-47DD-AA67-596A3D96090E 1    /Search                                    <Default>  
+11219 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         5CC65C50-62E6-46E3-B697-1E7B7E0D9E23 1    /Local/Default                             <Default>  
+12041 -- Finder -- total (1)
+         E338C2D2-FA30-4F5F-8653-B9F3DC960A76 1    /Local/Default                             <Default>  
+15249 -- login -- total (1)
+         3EB109B7-A7F9-440C-AB52-2963B99DBA78 1    /Local/Default                X            <Default>  
+16382 -- Electron -- total (1)
+         ABA835C2-1F1D-4CF7-8F57-17BE5424101B 1    /Contacts                                  <Default>  
+17428 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         DCBF6EDE-9F26-47FF-A171-56ED54277BE0 1    /Local/Default                             <Default>  
+22017 -- login -- total (1)
+         7A62E472-6FF8-488D-A4A8-CD7763E9B91E 1    /Local/Default                X            <Default>  
+25648 -- sudo -- total (1)
+         6D50A159-664B-47B6-A5FC-83175F02CAA8 1    /Local/Default                X            <Default>  
+27268 -- login -- total (1)
+         CD0E6F3E-71D4-4171-BC91-36A7F8BA34B6 1    /Local/Default                X            <Default>  
+28054 -- sudo -- total (1)
+         1BD74DB3-0F60-4BBE-A535-D3458BBF3C66 1    /Local/Default                X            <Default>  
+30460 -- Claude -- total (1)
+         25E09EF4-9C5B-4E23-BF2E-B4A9902BACFA 1    /Contacts                                  <Default>  
+30558 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         EE650DBA-F383-451D-96BE-C2E0FD39554D 1    /Local/Default                             <Default>  
+43591 -- login -- total (1)
+         553F6E7B-96E0-4C75-BE6E-A8DA51919744 1    /Local/Default                X            <Default>  
+44827 -- login -- total (1)
+         60401434-FA1F-44D2-894B-656A6153873A 1    /Local/Default                X            <Default>  
+46274 -- Macs Fan Control -- total (1)
+         2391D55B-B5DB-4D91-8941-4A2C6FF2AF8E 1    /Contacts                                  <Default>  
+49165 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         99EB0DBD-4EAA-4792-A01C-FD915A9848D9 1    /Local/Default                             <Default>  
+50600 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         D084270C-D849-4BA3-8011-F90F34AB8512 1    /Local/Default                             <Default>  
+52894 -- Cursor -- total (1)
+         BC7B1A6D-15C9-493D-BBAF-97DCB849D634 1    /Contacts                                  <Default>  
+55157 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         27DE9EAD-BCC4-4E39-9BDC-96156E649CDA 1    /Local/Default                             <Default>  
+57940 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         67CCAF98-0BF0-4FE6-8063-9E50F0EE7934 1    /Local/Default                             <Default>  
+61338 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         BA809647-2FC8-441F-B147-5C5E27BD257E 1    /Local/Default                             <Default>  
+77139 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         6DC1BD37-A7C8-44F2-9184-DCB907DE1EB5 1    /Local/Default                             <Default>  
+81459 -- login -- total (1)
+         BEE760DC-3D39-4A03-AFA8-3E111B156FF9 1    /Local/Default                X            <Default>  
+84694 -- sudo -- total (1)
+         0013C11E-A7D0-416F-9ABC-66F16526FCDA 1    /Local/Default                X            <Default>  
+85449 -- sudo -- total (1)
+         D1ACCC58-D2B9-4366-9AD2-02793E713232 1    /Local/Default                X            <Default>  
+88152 -- sudo -- total (1)
+         EE24EF91-4C1A-42D0-AF72-F50161E682BB 1    /Local/Default                X            <Default>  
+89352 -- sudo -- total (1)
+         A60B6487-6583-4F92-95ED-1F8D49E8E986 1    /Local/Default                X            <Default>  
+91651 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         902F590F-7E14-4334-B8C2-61BF97E1DF2E 1    /Local/Default                             <Default>  
+97282 -- com.apple.appkit.xpc.openAndSav -- total (1)
+         547BE5D5-C96D-4D84-9EC3-18DCB669F83F 1    /Local/Default                             <Default>  
+
+Active requests (time in microseconds):
+
+PID      Request ID Refs Type Active Time Node ID Nodename Current Module Parent Request Results Delivered 
+-------- ---------- ---- ---- ----------- ------- -------- -------------- -------------- ----------------- 
+
+Nodenames:
+
+Name              State  Refs Type External Locked Hidden 
+----------------- ------ ---- ---- -------- ------ ------ 
+/Active Directory        1                  X      X      
+/Configure        Online 1                  X      X      
+/Contacts         Online 8                                
+/LDAPv3           Online 1                  X      X      
+/Local                   2                  X      X      
+/Local/Default    Online 51                 X             
+/Platform SSO     Online 1                  X             
+/Search           Online 12                               
+
+Active sessions:
+
+PID      Session ID Refs Type Target 
+-------- ---------- ---- ---- ------ 
+
+Modules:
+
+Name        Capabilities                                               External Path                                                     
+----------- ---------------------------------------------------------- -------- -------------------------------------------------------- 
+PlatformSSO Authentication, Connection, Modification, Query                     /System/Library/OpenDirectory/Modules/PlatformSSO.bundle 
+PlistFile   Authentication, Connection, Modification, Query                     /System/Library/OpenDirectory/Modules/PlistFile.bundle   
+SystemCache Unspecified                                                         /System/Library/OpenDirectory/Modules/SystemCache.bundle 
+configure   Authentication, Connection, Query                                   /System/Library/OpenDirectory/Modules/configure.bundle   
+keychain    Connection                                                          /System/Library/OpenDirectory/Modules/keychain.bundle    
+ldap        Authentication, Connection, Discovery, Modification, Query          /System/Library/OpenDirectory/Modules/ldap.bundle        
+search      Connection, Query                                                   /System/Library/OpenDirectory/Modules/search.bundle      
+
+Local Users:
+
+UUID                                 UID Username  Admin Auth Authorities Disabled PW Field STV State  
+------------------------------------ --- --------- ----- ---------------- -------- -------- ---------- 
+56F665CF-013B-4149-B298-E802CEAE5BEA 502 (private) Y     SH, ST, K        (none)   ******** C:OK, O:OK 
+9F3FA0FB-9674-4F3A-9460-815C87F30FC3 501 (private) Y     SH, ST, K        (none)   ******** C:OK, O:OK 
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000000 0   (private) Y     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000001 1   (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000004 4   (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000000D 13  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000018 24  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000019 25  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001A 26  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001B 27  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000001F 31  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000020 32  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000021 33  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000036 54  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000037 55  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000038 56  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000003B 59  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000003C 60  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000041 65  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000043 67  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000046 70  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000047 71  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000048 72  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000049 73  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004A 74  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004B 75  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004C 76  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004D 77  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004E 78  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000004F 79  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000052 82  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000053 83  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000054 84  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000057 87  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000058 88  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059 89  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005B 91  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005C 92  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005D 93  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005E 94  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000005F 95  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000060 96  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000061 97  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000062 98  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000063 99  (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000C8 200 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CA 202 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CB 203 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD 205 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D0 208 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D2 210 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D3 211 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D4 212 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D5 213 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D6 214 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D7 215 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D8 216 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000D9 217 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DA 218 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DB 219 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DC 220 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DD 221 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000DE 222 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E0 224 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E3 227 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E4 228 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E5 229 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E6 230 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E7 231 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E8 232 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000E9 233 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EA 234 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB 235 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EC 236 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EF 239 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F0 240 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F1 241 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F2 242 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F4 244 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F5 245 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F6 246 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F7 247 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8 248 (private) Y     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F9 249 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FB 251 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FC 252 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FD 253 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000FE 254 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000101 257 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000102 258 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000103 259 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000104 260 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000105 261 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000106 262 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000107 263 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000109 265 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010A 266 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010C 268 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010D 269 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010E 270 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000010F 271 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000110 272 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000111 273 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000112 274 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000113 275 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000115 277 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000116 278 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000117 279 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000118 280 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000119 281 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011A 282 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011B 283 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011C 284 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011D 285 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000120 288 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000121 289 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000123 291 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000125 293 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000126 294 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000127 295 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000128 296 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000129 297 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012A 298 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012C 300 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012D 301 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012E 302 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000012F 303 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000130 304 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000132 306 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000133 307 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAA000001B9 441 (private) N     (none)           (none)   *                   
+FFFFEEEE-DDDD-CCCC-BBBB-AAAAFFFFFFFE -2  (private) N     (none)           (none)   *                   
+
+Statistics:
+
+Report for Kernel
+=================
+Counters:
+    Translation (Cache Hit) - 9016
+    Translation (Cache Miss) - 40
+    Membership Checks (Cache Hit) - 2187
+    Membership Checks (Cache Miss) - 32
+
+Translation (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |************************************************
+     2 us  |
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |
+   128 us  |
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+
+Translation (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+    16 us  |************
+    32 us  |***********************
+    64 us  |************
+   128 us  |*
+
+Membership Checks (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |****************************************
+     2 us  |******
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |*
+   128 us  |
+   256 us  |
+
+Membership Checks (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |*******
+    16 us  |*****************
+    32 us  |******************
+    64 us  |*
+   128 us  |****
+
+Report for Userland
+=================
+Counters:
+    Translation (Cache Hit) - 66229
+    Translation (Cache Miss) - 0
+    Membership Checks (Cache Hit) - 657
+    Membership Checks (Cache Miss) - 23
+    GetGrouplist (Cache Hit) - 75941
+    GetGrouplist (Cache Miss) - 325
+
+Translation (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |************************************************
+     2 us  |*
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |
+   128 us  |
+
+Translation (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |
+
+Membership Checks (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |**********************************************
+     2 us  |*
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |
+   128 us  |
+
+Membership Checks (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+    16 us  |**
+    32 us  |********
+    64 us  |******************************
+   128 us  |******
+   256 us  |
+   512 us  |**
+
+GetGrouplist (Cache Hit) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     1 us  |************************************************
+     2 us  |*
+     4 us  |
+     8 us  |
+    16 us  |
+    32 us  |
+    64 us  |
+   128 us  |
+   256 us  |
+   512 us  |
+
+GetGrouplist (Cache Miss) metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     4 us  |
+     8 us  |***
+    16 us  |********
+    32 us  |**************
+    64 us  |************
+   128 us  |*****
+   256 us  |****
+   512 us  |*
+     1 ms  |
+     2 ms  |
+
+Report for Queries
+=================
+Counters:
+    Total Queries - 19
+    Failed Queries - 1359
+    GroupMembership - 122
+    GroupMembers - 36
+    NestedGroups - 388
+
+Total Queries metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |**
+    16 us  |**********
+    32 us  |*********************
+    64 us  |*************
+   128 us  |
+   256 us  |
+   512 us  |
+     1 ms  |
+     2 ms  |**
+
+Failed Queries metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |
+    16 us  |************
+    32 us  |*******************
+    64 us  |**********
+   128 us  |****
+   256 us  |*
+   512 us  |
+     1 ms  |
+     2 ms  |
+     4 ms  |
+     8 ms  |
+    16 ms  |
+    32 ms  |
+
+GroupMembership metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |
+    16 us  |*************
+    32 us  |*****************
+    64 us  |**********
+   128 us  |******
+   256 us  |*
+   512 us  |
+     1 ms  |
+
+GroupMembers metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |*
+    16 us  |*****
+    32 us  |**********************
+    64 us  |*************
+   128 us  |*****
+   256 us  |*
+
+NestedGroups metrics:
+               10%  20%  30%  40%  50%  60%  70%  80%  90%  100%
+           +----+----+----+----+----+----+----+----+----+----+
+     8 us  |*
+    16 us  |************
+    32 us  |***************
+    64 us  |*********
+   128 us  |*****
+   256 us  |****
+   512 us  |*
+     1 ms  |
+     2 ms  |
+
+
